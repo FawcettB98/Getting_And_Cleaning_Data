@@ -1,0 +1,55 @@
+Data Dictionary - Tidy_Data
+
+subject		Integer		30
+   Volunteer Test Subject
+      1 - 30  Unique identifier assigned to each
+
+activity_label	Factor		6
+   Description of activity the subjects were asked to perform
+      LAYING
+      SITTING
+      STANDING
+      WALKING
+      WALKING_DOWNSTAIRS
+      WALKING_UPSTAIRS
+
+set		Character	2
+   Which set the observations for the subject were split into - either a "training" set (70%) or a "testing" set (30%)
+      train
+      test
+
+feature		Character	17
+   features that were measured
+      "fBodyAcc"             
+      "fBodyAccJerk"         
+      "fBodyAccMag"         
+      "fBodyBodyAccJerkMag"  
+      "fBodyBodyGyroJerkMag" 
+      "fBodyBodyGyroMag"    
+      "fBodyGyro"            
+      "tBodyAcc"             
+      "tBodyAccJerk"        
+      "tBodyAccJerkMag"      
+      "tBodyAccMag"          
+      "tBodyGyro"           
+      "tBodyGyroJerk"        
+      "tBodyGyroJerkMag"     
+      "tBodyGyroMag"        
+      "tGravityAcc"          
+      "tGravityAccMag"      
+
+stat		Character	3
+   The statistic that was measured
+      mean
+      meanFreq
+      std
+
+direction	Character	4
+   The direction of the measurement
+      X
+      Y
+      Z
+      NA
+
+measurement	Numerical
+   The average of the measurements for the subject
